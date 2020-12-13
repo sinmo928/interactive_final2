@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;600&display=swap');
+  
+.background{
+	width:100%;
+	height:100%;
+	background-color: #dfdfdf;
+	position: absolute;
+}
+
+.text-box{
+	position: absolute;
+	width: 80%;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	word-wrap: normal;
+	transform: translate( -50%, -50%);
+}
+
+.title{
+	font-family: 'Barlow Condensed', sans-serif;
+	color: #544444;
+	text-align: center;
+	font-size: 550%;
+	font-weight: 600;
+	letter-spacing: 4px;
+
+}
+
+.sub_title{
+	font-family: 'Barlow Condensed', sans-serif;
+	color: #544444;
+	text-align: center;
+	font-size: 250%;
+	font-weight: 300;
+
+}
+
+.gear-box{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	
+	bottom: 0%;
+
+	perspective: 1000px;
+	perspective-origin: 50% 100% ;
+}
+
+
+.gear1{
+	position: absolute;
+	width: 50vw;
+	height: 50vw;
+	left: -25vw;
+	bottom: -25vw;
+
+}
+
+.gear2{
+	position: absolute;
+	width: 25vw;
+	height: 25vw;
+	left: 24vw;
+	bottom: -13vw;
+}
+
+.gear3{
+	position: absolute;
+	width: 50vw;
+	height: 50vw;
+	left: 75vw;
+	top: -25vw;
+
+}
+
+.gear4{
+	position: absolute;
+	width: 20vw;
+	height: 20vw;
+	left: 56.5vw;
+	top: -10vw;
+
+}
+
+.gear5{
+	position: absolute;
+	width: 40vw;
+	height: 40vw;
+	left: 9vw;
+	bottom: -52.5vw;
+}
+
+.gear6{
+	position: absolute;
+	width: 30vw;
+	height: 30vw;
+	left: 46.2vw;
+	bottom: -38vw;
+}
+
+.gear7{
+	position: absolute;
+	width: 25vw;
+	height: 25vw;
+	left: 70vw;
+	bottom: -50vw;
+}
+
+
